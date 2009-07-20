@@ -1,0 +1,7 @@
+def one(n)
+  n.times{
+    puts n if (n%3 == 0) || (n%5 == 0)
+    }
+end
+
+one(1000)
